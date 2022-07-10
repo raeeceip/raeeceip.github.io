@@ -1,110 +1,68 @@
-*{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    font-family: 'Josefin Sans', sans-serif;
-    box-sizing: border-box;
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: "Josefin Sans", sans-serif;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+nav li:first-child {
+	flex-basis: 100%;
+	text-align: center;
+}
+.navbar {
+	color: white;
+	padding: 20px;
+	background-color: lightblue;
+	font-size: 1.3em;
+}
+nav [class="fa"] {
+	font-size: 150%;
+}
+nav a {
+	padding: 10px;
+	color: white;
+	display: block;
+	text-decoration: none;
+}
+nav ul {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	gap: 2rem;
+	align-items: center;
+}
+@media (min-width: 768px) {
+	nav {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	nav li:first-child {
+		flex-basis: auto;
+		text-align: left;
+		margin-right: auto;
+	}
+}
+.about {
+	background-color: lightblue;
+	padding: 20px;
+	color: white;
+	line-height: 2.5rem;
+	text-align: center;
+	font-size: 1.3em;
+}
+.about ul {
+	color: white;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	gap: 1rem;
+	align-items: center;
+}
+footer {
+	text-align: center;
+	color: white;
+	background-color: lightblue;
 
+	padding: 10px;
 }
-.Pic{
-    background-image: url(https://images.unsplash.com/photo-1588421357574-87938a86fa28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
-    width: 100%;
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-}
-
-nav{
-    display: flex;
-    justify-content: space-between ;
-    align-items: center;
-    background-color: rgb(172, 216, 254);
-    color: white;
-    width: 100%;
-    padding: 10px 20px 50px 10px;
-    
-}
-nav Button{
-    background-color: rgb(10, 177, 219);
-    padding: 9px 15px;
-    border-radius: 15px ;
-    transition: transform .4s;
-    border:none;
- 
-} 
-
-nav Button a{
-    color: rgb(247, 252, 252);
-    font-weight: bold ;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: transform .4s;
-}
-button:hover{
-    transform:scale(1.2)
-}
-.FirstPage{
-    margin: 30px;
-    text-align: center;
-    color:white;
-    width: 70%;
-    width: 70%;
-    margin-left: 15%;
-
-}
-
-.btn{
-    display: inline-block;
-    width: 30%;
-    height: 35%;
-    margin: 30px 30% 40px 35%;
-    text-align: center;
-    background-color: rgb(10, 177, 219);
-    color: azure;
-    padding: 10px ;
-    border-radius: 50px;
-    transition: transform .5s;
-    border: none;
-}
-
-.or{
-    display: flex;
-    justify-content: space-between ;
-    align-items: center;
-    margin-top: 8px;
-    width: 30%;
-    margin-left: 33%;
-}
-form input{
-    border-radius: 5px;
-    border: none;
-    padding: 5px;
-   
-}
-.last li a{
-    text-decoration: none;
-    color: azure;
-}
-
-.Registrationform{
-    display: inline-block;
-    align-items: center;
-    background-color: rgb(10, 177, 219);;
-    padding:50px;
-    width: 33%;
-    height: 68%;
-    margin: 50px 20% 50px 35%;
-    border-radius: 40px;
-    color: azure;
-}
-
-#paragraph{
-    text-align: center;
-}
-#space{
-    margin: 10px 30px 10px 50px;
-    padding: 10px;
-    width: 70%;
-   
-}
-
