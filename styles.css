@@ -59,6 +59,14 @@ nav ul {
 	gap: 1rem;
 	align-items: center;
 }
+.projects {
+	background-color: lightblue;
+	padding: 20px;
+	color: white;
+	line-height: 2.5rem;
+	text-align: center;
+	font-size: 1.3em;
+}
 footer {
 	text-align: center;
 	color: white;
