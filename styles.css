@@ -15,6 +15,7 @@ nav li:first-child {
 	padding: 20px;
 	background-color: lightblue;
 	font-size: 1.3em;
+	border-bottom: 2px solid lightgray;
 }
 nav [class="fa"] {
 	font-size: 150%;
@@ -60,9 +61,12 @@ nav ul {
 	align-items: center;
 }
 .cards {
-	display: flex;
-	flex-flow: row wrap;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+
 	justify-content: center;
+	gap: 2rem;
 }
 
 footer {
@@ -71,4 +75,14 @@ footer {
 	background-color: lightblue;
 
 	padding: 10px;
+}
+
+footer ul,
+footer a {
+	justify-content: center;
+	display: flex;
+	color: white;
+	flex-flow: row wrap;
+	gap: 1rem;
+	font-size: 2em;
 }
