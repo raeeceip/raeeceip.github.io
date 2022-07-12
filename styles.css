@@ -34,7 +34,6 @@ nav ul {
 }
 @media (min-width: 768px) {
 	nav {
-		max-width: 1200px;
 		margin: 0 auto;
 	}
 	nav li:first-child {
@@ -43,7 +42,8 @@ nav ul {
 		margin-right: auto;
 	}
 }
-.about {
+.about,
+.projects {
 	background-color: lightblue;
 	padding: 20px;
 	color: white;
@@ -59,14 +59,12 @@ nav ul {
 	gap: 1rem;
 	align-items: center;
 }
-.projects {
-	background-color: lightblue;
-	padding: 20px;
-	color: white;
-	line-height: 2.5rem;
-	text-align: center;
-	font-size: 1.3em;
+.cards {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
 }
+
 footer {
 	text-align: center;
 	color: white;
