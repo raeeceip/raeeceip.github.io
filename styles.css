@@ -6,6 +6,9 @@
 	box-sizing: border-box;
 	text-decoration: none;
 }
+section {
+	border-bottom: 2px solid lightgray;
+}
 nav li:first-child {
 	flex-basis: 100%;
 	text-align: center;
@@ -18,7 +21,7 @@ nav li:first-child {
 	border-bottom: 2px solid lightgray;
 }
 nav [class="fa"] {
-	font-size: 150%;
+	font-size: 100%;
 }
 nav a {
 	padding: 10px;
@@ -33,7 +36,8 @@ nav ul {
 	gap: 2rem;
 	align-items: center;
 }
-@media (min-width: 768px) {
+
+@media (min-width: 850px) {
 	nav {
 		margin: 0 auto;
 	}
@@ -41,6 +45,12 @@ nav ul {
 		flex-basis: auto;
 		text-align: left;
 		margin-right: auto;
+	}
+	.cards {
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(2, minmax(400px, 2fr));
+		justify-content: center;
 	}
 }
 .about,
@@ -61,14 +71,25 @@ nav ul {
 	align-items: center;
 }
 .cards {
-	width: 100%;
+	width: 80%;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-
+	align-items: middle;
 	justify-content: center;
-	gap: 2rem;
+	margin: 0 auto;
+}
+/* add hover effect to  button*/
+
+.card img {
+	max-width: 320px;
+	height: 250px;
+	object-fit: cover;
+	justify-items: center;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 10px;
 }
 
+/* set text margin */
 footer {
 	text-align: center;
 	color: white;
