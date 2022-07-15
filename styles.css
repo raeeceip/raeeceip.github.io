@@ -45,7 +45,7 @@ nav ul li:hover {
 	visibility: visible;
 }
 @media (max-width: 420px) {
-	nav ul li: {
+	nav ul li {
 		display: none;
 		visibility: hidden;
 	}
@@ -53,6 +53,10 @@ nav ul li:hover {
 		display: flex;
 		flex-flow: row wrap;
 		visibility: visible;
+	}
+	.cards img {
+		width: 80%;
+		border-radius: 50px;
 	}
 	.about h1 {
 		text-align: center;
