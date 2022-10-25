@@ -6,7 +6,7 @@
   <!-- <a href="https://Chibogu_Chisom.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">Chibogu_Chisom</h1>
+<h1 align="center">Chiso/h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/raeeceip/Chibogu_Chisom?color=56BEB8">
