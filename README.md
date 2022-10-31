@@ -3,7 +3,7 @@
 
 &#xa0;
 
-  <!-- <a href="https://Chibogu_Chisom.netlify.app">Demo</a> -->
+  <!-- <a href="https://GitHub.io/raeeceip">Demo</a> -->
 </div>
 
 <h1 align="center">Chiso.</h1>
